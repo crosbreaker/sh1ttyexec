@@ -3,6 +3,8 @@ Exploit allowing for code execution on keyrolled chromebooks with kernel version
 
 guide written by Lxrd, copied from the crosbreaker discord. [message link](https://discord.com/channels/1375357349425971231/1437920169224831038/1437920169224831038)
 
+## if you need any support join [the discord](https://discord.gg/92gCC4Whu4)
+
 1. Powerwash the device
 2. Start enrolling the device then open powerwash menu (ctrl+alt+shift+r) on Enrollmet screen not the please wait and wait till it crashes back to OOBE
 3. Try enrolling again but the moment enrollment starts (the screen that says enrollment, not please wait) esc+refresh+power ( its timing sensitive so don’t expect to get it first try), and you are done, block_devmode is set to 0 and you can do bad reco unverified which can help facilitate exploits/unenrollments like quicksilver on keyrolled devices (kv6). To enter an unverified recovery image, esc+refresh+power then ctrl+d and enter, esc+refresh+power again and plug in usb.
@@ -23,5 +25,3 @@ Olyb, badrecovery unverified.
 Con, having aura
 Carbon and Scottie, recomm3r
 Crossjbly/xz8f, finding that the powerwash keybind allows us to crash back to oobe more easily/effectively.
-
-https://discord.gg/92gCC4Whu4
