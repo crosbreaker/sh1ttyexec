@@ -1,7 +1,7 @@
 # sh1ttyexec
 Exploit allowing for code execution on keyrolled chromebooks with kernel version 6.
 
-guide written by Lxrd, copied from the crosbreaker discord. [message link](https://discord.com/channels/1375357349425971231/1437920169224831038/1437920169224831038)
+</br>Guide written by Lxrd, copied from the crosbreaker discord, and reformatted for GitHub. [message link](https://discord.com/channels/1375357349425971231/1437920169224831038/1437920169224831038)
 
 ## if you need any support join [the discord](https://discord.gg/92gCC4Whu4)
 
@@ -11,17 +11,16 @@ guide written by Lxrd, copied from the crosbreaker discord. [message link](https
 
 Explanation: This is due to the fact that when you enroll you go through state determination and if you crash back to oobe and try to enroll again, state determination happens a second time. As a result, it tries to clear fwmp but it can’t because the tpm is locked, however it does set block_devmode in vpd to 0. Shortly after, it sets it back to 1 but we can simply restart or enter recovery menu before it is able to. This allows us to boot unverified recovery images and gain/lead to code execution via badrecovery unverified. A project called recomm3r is being released by carbon soon which is an unverified recovery image that has a clean GUI and many utilities like sh1mmer.
 
-Patched v143
+</br>**This was patched in v143**
 
-Vid tut:
-
+</br>Vid tut:</br>
 https://drive.google.com/file/d/1Z4Lv82w_QGy-TTdSvdMAu0gf8NOJyKfx/view
-
+</br></br>
 Credits:
-Lxrd for finding the vulnerability
-Crosbreaker/Wininit, testing
-Wininit, Video
-Olyb, badrecovery unverified.
-Con, having aura
-Carbon and Scottie, recomm3r
-Crossjbly/xz8f, finding that the powerwash keybind allows us to crash back to oobe more easily/effectively.
+</br>Lxrd for finding the vulnerability
+</br>Crosbreaker/Wininit, testing
+</br>Wininit, Video
+</br>Olyb, badrecovery unverified.
+</br>Con, having aura
+</br>Carbon, Scottie, and DMD, recomm3r
+</br>Crossjbly/xz8f, finding that the powerwash keybind allows us to crash back to oobe more easily/effectively.
