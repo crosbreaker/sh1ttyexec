@@ -23,5 +23,5 @@ Credits:
 </br>Wininit, Video
 </br>Olyb, badrecovery unverified.
 </br>Con, having aura
-</br>Carbon, Scottie, and DMD, recomm3r
+</br>DMD, having more aura than Con.
 </br>Crossjbly/xz8f, finding that the powerwash keybind allows us to crash back to oobe more easily/effectively.
