@@ -23,4 +23,4 @@ Credits:
 </br>Wininit, Video
 </br>Olyb, badrecovery unverified.
 </br>Con & dmd, having aura
-</br>Crossjbly/xz8f, finding that the powerwash keybind allows us to crash back to oobe more easily/effectively.
+</br>xz8f, finding that the powerwash keybind allows us to crash back to oobe more easily/effectively.
